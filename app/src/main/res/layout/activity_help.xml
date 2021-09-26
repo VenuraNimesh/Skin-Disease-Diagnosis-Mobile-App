@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp"
+    tools:context=".HelpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:text="Help"
+            android:layout_centerHorizontal="true"
+            android:textColor="#9C27B0"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHelp"
+            android:layout_toStartOf="@id/treatmentsButton"
+            android:text="Home"
+            android:textColor="#ec407a"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toLeftOf="@id/treatmentsButton" />
+
+        <TextView
+            android:id="@+id/treatmentsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHelp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:text="Treatments"
+            android:textColor="#ec407a"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:id="@+id/textEczema"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:text="Step 01"
+            android:layout_below="@+id/homeButton"
+            android:textColor="#5C525E"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textETreatment"
+            android:layout_width="wrap_content"
+            android:layout_height="85sp"
+            android:text="Select an Image from the photo gallery or capture an image through the application itself."
+            android:layout_below="@+id/textEczema"
+            android:textColor="#5C525E"
+            android:textSize="19sp"
+             />
+
+        <TextView
+            android:id="@+id/textRingworm"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:text="Step 02"
+            android:layout_below="@+id/textETreatment"
+            android:textColor="#5C525E"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textRTreatment"
+            android:layout_width="wrap_content"
+            android:layout_height="75sp"
+            android:text="The selected image is displayed. Either upload or cancel and select a new one."
+            android:layout_below="@+id/textRingworm"
+            android:textColor="#5C525E"
+            android:textSize="19sp"
+           />
+
+        <TextView
+            android:id="@+id/textStep3"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:text="Step 03"
+            android:layout_below="@+id/textRTreatment"
+            android:textColor="#5C525E"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textStep3i"
+            android:layout_width="wrap_content"
+            android:layout_height="75sp"
+            android:text="The diagnosed disease will display on a Dialog Box. "
+            android:layout_below="@+id/textStep3"
+            android:textColor="#5C525E"
+            android:textSize="19sp"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

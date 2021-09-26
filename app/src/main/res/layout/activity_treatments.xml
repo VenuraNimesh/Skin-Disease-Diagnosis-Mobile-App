@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp"
+    tools:context=".TreatmentsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:text="Treatments"
+            android:layout_centerHorizontal="true"
+            android:textColor="#9C27B0"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTitle"
+            android:layout_toStartOf="@id/helpButton"
+            android:text="Home"
+            android:textColor="#ec407a"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toLeftOf="@id/helpButton" />
+
+        <TextView
+            android:id="@+id/helpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:text="Help"
+            android:textColor="#ec407a"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:id="@+id/textEczema"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:text="Eczema"
+            android:layout_below="@+id/homeButton"
+            android:textColor="#5C525E"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textETreatment"
+            android:layout_width="wrap_content"
+            android:layout_height="200sp"
+            android:layout_below="@+id/textEczema"
+            android:text="\u2022 Topical or Oral Corticosteroids\n\u2022 Coal Tar Cream\n\u2022 Applying fragrance-free moisturizers that protect the skin from damage, such as moisturizing body oils and petroleum jelly.\n\u2022 Wearing soft, natural fabrics, such as cotton, to reduce skin irritation"
+            android:textColor="#5C525E"
+            android:textSize="19sp"
+            />
+
+        <TextView
+            android:id="@+id/textRingworm"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_below="@+id/textETreatment"
+            android:layout_marginTop="-2dp"
+            android:text="Ringworm"
+            android:textColor="#5C525E"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textRTreatment"
+            android:layout_width="wrap_content"
+            android:layout_height="200sp"
+            android:layout_below="@+id/textRingworm"
+            android:layout_marginTop="-2dp"
+            android:text="\u2022 Antifungal Creams, ointments, gels, or sprays\n\u2022 Clotrimazole (Lotrimin, Mycelex)\n\u2022 Miconazole (Aloe Vesta Antifungal, Azolen, Baza Antifungal\n\u2022 Drying areas thoroughly after bathing\n\u2022 Wearing loose clothing in affected areas"
+            android:textColor="#5C525E"
+            android:textSize="19sp"
+             />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
